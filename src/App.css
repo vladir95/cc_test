@@ -1,5 +1,28 @@
-.App {
+form {
+  display: inline-block;
+}
+
+body {
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.errorText {
+  color: red;
+}
+
+.ccInput {
+  width: 400px;
+}
+
+input {
+  margin: 5px;
+  height: 10px;
+  text-align: center;
+  border-radius: 15px;
+  border: 2px solid;
+  padding: 10px;
+  font-size: 15px;
 }
 
 .App-logo {
